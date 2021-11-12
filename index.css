@@ -86,3 +86,31 @@ header>div>h2{
     font-size: 30px;
     line-height: 20px;
 }
+.perks{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.perks>div>img{
+    height: 150px;
+    filter: invert(61%) sepia(82%) saturate(859%) hue-rotate(5deg) brightness(100%) contrast(103%);
+}
+#short{
+    height: 360px;
+    width: 360px;
+    padding-top: 30px;
+    border: 1px solid;
+    border-radius: 12px;
+    text-align: center;
+}
+#center{
+    height: 470px;
+    width: 400px;
+    padding-top: 30px;
+    border: 1px solid;
+    border-radius: 12px;
+    text-align: center;
+}
