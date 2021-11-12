@@ -47,7 +47,7 @@ nav :nth-child(4){
     height: 50px;
 }
 nav :nth-child(5){
-    background-color: #f6b400;
+    background-color: rgb(241, 77, 77);
     color: #ffff;
     margin-top: 20px;
     width: 30px;
@@ -71,11 +71,12 @@ header>:nth-child(4){
 }
 header>:nth-child(5){
     padding-left: 90px;
-    margin-top: 70px;
+    padding-top: 150px;
 }
 header>:nth-child(5)>button{
     height: 40px;
     width: 100px;
+    border: #f6b400;
     border-radius: 30px 30px 0 30px;
     background-color: #f6b400;
     color: #ffff;
@@ -89,9 +90,11 @@ header>div>h2{
 .perks{
     display: flex;
     justify-content: space-around;
-    height: 600px;
+    height: 640px;
     align-items: center;
-    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: #e1ebe6;
 }
 
 .perks>div>img{
