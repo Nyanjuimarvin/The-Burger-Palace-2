@@ -5,6 +5,9 @@ header{
     height: 900px;
     background: linear-gradient(-79deg,#f6b400 50%,#ffff 50%);
 }
+main{
+    background-color: white;
+}
 nav{
     display: flex;
 }
@@ -48,8 +51,11 @@ nav :nth-child(4){
 }
 nav :nth-child(5){
     background-color: rgb(241, 77, 77);
+    border:  rgb(241, 77, 77);
+    position: relative;
     color: #ffff;
     margin-top: 20px;
+    margin-right: 23px;
     width: 30px;
     height: 30px; 
 }
@@ -76,9 +82,9 @@ header>:nth-child(5){
 header>:nth-child(5)>button{
     height: 40px;
     width: 100px;
-    border: #f6b400;
+    border: #f67700;
     border-radius: 30px 30px 0 30px;
-    background-color: #f6b400;
+    background-color: #f67700;
     color: #ffff;
 }
 
@@ -117,3 +123,94 @@ header>div>h2{
     border-radius: 12px;
     text-align: center;
 }
+#menu{
+    padding-top: 100px;
+    text-align: center;
+}
+#menu span{
+    color: #f6b400;
+}
+/*Pseudo Element for menu*/
+#menu:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 5%; 
+    padding-top: 2px; 
+    border-bottom: 8px solid #f67700;
+}
+.burger-top{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+.burger-bottom{
+    display: flex;
+    justify-content: space-around;
+
+}
+#burger{
+    height: 700px;
+    width: 350px;
+    padding-top: 40px;
+    box-shadow: 2px 3px 10px 4px #e1ebe6;
+    border-radius: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+#burger img{
+    height: 250px;
+}
+.rotate{
+    transform: rotate(45deg);
+    margin-left: 355px;
+}
+#new{
+    position: absolute;
+    padding-left: 56px;
+    padding-right: 150px;
+    margin-left: -115px;
+    margin-right: -190px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    background-color: #f67700;
+    color: #ffff;
+    overflow: hidden;
+    font-size: 20px;
+}
+#burger h2{
+    color: rgb(53, 4, 53);
+}
+#burger button{
+    height: 40px;
+    width: 100px;
+    margin: 8px 30px;
+    border-radius: 10px;
+    background-color: #e1ebe6;
+    border: #e1ebe6;
+}
+#pm{
+    color: green;
+    font-size: 23px;
+    padding: 10px;
+}
+#num{
+    font-size: 23px;
+}
+#cart{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+#cart img{
+    height: 45px;
+    margin-right: 20px;
+    padding : 5px 20px;
+    border-radius: 13px;
+    background-color: #e1ebe6;
+    background-size: cover;
+}
+#cart h3{
+    padding-left: 30px;
+}
+
