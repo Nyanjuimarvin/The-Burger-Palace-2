@@ -150,7 +150,7 @@ header>div>h2{
 
 }
 #burger{
-    height: 700px;
+    height: 620px;
     width: 350px;
     padding-top: 40px;
     box-shadow: 2px 3px 10px 4px #e1ebe6;
@@ -212,5 +212,51 @@ header>div>h2{
 }
 #cart h3{
     padding-left: 30px;
+}
+.double-burger{
+    height: 900px;
+    margin-top: 90px;
+    background-color: #e1ebe6;
+}
+#text{
+    padding: 160px 0 0 90px;
+}
+#text h1{
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#text>h1>span{
+    color: #f67700;
+}
+#text img{
+    height: 500px;
+    float: right;
+    margin-bottom: 300px;
+    margin-right: 60px;
+}
+#text p{
+    padding: 30px 0 150px 5px;
+}
+#circles{
+    margin-left: 70px;
+}
+#circles :first-child{
+    color: #f67700;
+    background-color: #f67700;
+}
+#circles button{
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color:grey;
+    color: grey;
+    margin-left: 40px;
+}
+#circles span{
+    font-size: 110px;
+    padding-left: 50px;
+    color: #f67700;
 }
 
