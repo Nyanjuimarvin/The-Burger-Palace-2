@@ -1,0 +1,48 @@
+body{
+    font-family: poppins;
+}
+nav{
+    display: flex;
+}
+nav img{
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+nav h1{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold
+}
+nav button{
+    height: 30px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+ul{
+    padding-left: 390px;
+    padding-right: 120px;
+}
+ul :first-child a{
+    border-bottom: 5px solid #f6b400;
+}
+li{
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+nav :nth-child(4){
+    height: 50px;
+}
+nav :nth-child(5){
+    background-color: #f6b400;
+    color: #ffff;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px; 
+}
