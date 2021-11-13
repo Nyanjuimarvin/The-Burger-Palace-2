@@ -293,7 +293,43 @@ header>div>h2{
 .footer-1{
     display: flex;
     justify-content: space-between;
+    background: #e1ebe6;
+    padding-bottom: 50px;
+}
+#logo{
+    padding-top: 80px;
+    padding-left: 60px;
 }
 #logo h2{
     display: inline-flex;
+}
+#logo>h2>span{
+    color: #f6b400;
+}
+#logo img{
+    vertical-align: middle;
+}
+#foot-links{
+    padding-top: 10px;
+    padding-right: 180px;
+}
+#News{
+    padding: 90px 40px 0 0;
+}
+#form{
+    padding-top: 25px;
+}
+#email{
+    height: 32px;
+    padding-right: 20px;
+    margin-right: -20px;
+    border-radius: 5px 0 0 5px;
+}
+#sub{
+    height: 38px;
+    padding-right: 70px;
+    background: #f6b400;
+    color: #ffff;
+    border: #f6b400;
+    border-radius: 5px 0 0 5px;
 }
