@@ -289,3 +289,11 @@ header>div>h2{
     height: 53px;
     padding-top: 113px;
 }
+
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+}
+#logo h2{
+    display: inline-flex;
+}
