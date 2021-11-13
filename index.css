@@ -259,4 +259,33 @@ header>div>h2{
     padding-left: 50px;
     color: #f67700;
 }
-
+.disc{
+    display: flex;
+    background: #f6b400;
+    background-size: contain;
+}
+.phone{
+    display: flex;
+    padding: 50px;
+    background: #f6b400;
+}
+.phone img{
+    height: 600px;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+#discover{
+    padding: 170px 0 0 80px;
+    line-height: 30px;
+}
+#apps{
+    display: flex;
+}
+#apps :first-child{
+    height: 80px;
+    padding-top: 100px;
+}
+#apps :nth-child(2){
+    height: 53px;
+    padding-top: 113px;
+}
