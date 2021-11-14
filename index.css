@@ -78,7 +78,7 @@ header>:nth-child(4){
 }
 header>:nth-child(5){
     padding-left: 90px;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 header>:nth-child(5)>button{
     height: 50px;
@@ -340,7 +340,7 @@ header>div>h2{
     padding: 0 40px 0 40px;
     display: flex;
     justify-content: space-between;
-    background: #ffff;
+    background: rgb(243, 240, 240);
 }
 #icons p{
     margin-left: 15px;
