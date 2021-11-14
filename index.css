@@ -18,7 +18,8 @@ nav img{
 }
 nav h1{
     margin-top: 50px;
-    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
     font-weight: bold
 }
 nav>h1>span{
@@ -35,7 +36,7 @@ a{
     font-weight: bold;
 }
 ul{
-    padding-left: 270px;
+    padding-left: 274px;
     padding-right: 120px;
 }
 ul :first-child a{
@@ -302,6 +303,7 @@ header>div>h2{
 }
 #logo h2{
     display: inline-flex;
+    font-family: 'Lobster', cursive;
 }
 #logo>h2>span{
     color: #f6b400;
